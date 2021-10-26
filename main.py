@@ -1,13 +1,13 @@
 from random import randint
+from gameComponents import winLose
 
-# add player and computer lives
 choices = ["rock", "paper", "scissors"]
 
 
+# player will be the weapon the player chooses via input
 # save the player as a varible called player
 # the value of player will be one of three choices to type (input)
-#
-# player will be the weapon the player chooses via input
+
 player = False
 
 # and array is just a container. It holds multiple values in a 0-based index
@@ -16,30 +16,15 @@ player = False
 
 playerLives = 5
 computerLives = 5
-# define a win / lose function and invoke it in our game loop when lives run out (player or computer)
+
 
 # create an infinite loop (for now) so that we can keep playing
 
 
-def winorlose(status):
-	print("You " + status + "! Would you like to play again?")
-	choice = input(" Y / N ")
-
-	global playerLives
-	global computerLives
-	global player
-
-	if choice == "n":
-			print("Better luck next time!")
-			exit()
-	else:
-			#reset and restart
-		playerlives= 5
-		computerLives= 5
-		player = False
 
 
 while player is False:
+
 
 	player = input("Choose your weapon! rock, paper or scissors:")
 	computer = choices[randint(0,2)]
@@ -75,14 +60,14 @@ while player is False:
 			print("You lose!")
 			playerLives = playerLives - 1
 
-	print("computer Life count: " + str(computerLives))
-	print("player Life count: " + str(playerLives))
+	print("player Life count: " + str(computerLives))
+	print("computer Life count: " + str(playerLives))
 
 
 	if playerLives == 0:
-		winorlose("lost")
+		winLose.winorlose("lost")
 
 	elif computerLives == 0:
-	winorlose("won")
+		winLose.winorlose("won")
 
 	player = False
