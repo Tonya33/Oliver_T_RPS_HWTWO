@@ -29,14 +29,14 @@ def winorlose(status):
 	global computerLives
 	global player
 
-		if choice =="n":
+	if choice == "n":
 			print("Better luck next time!")
 			exit()
-		else:
+	else:
 			#reset and restart
-			playerlives= 5
-			computerLives= 5
-			player = False
+		playerlives= 5
+		computerLives= 5
+		player = False
 
 
 while player is False:
@@ -79,10 +79,10 @@ while player is False:
 	print("player Life count: " + str(playerLives))
 
 
-	if playerLives ==0
+	if playerLives == 0:
 		winorlose("lost")
 
 	elif computerLives == 0:
-		winorlose("won")
+	winorlose("won")
 
 	player = False
