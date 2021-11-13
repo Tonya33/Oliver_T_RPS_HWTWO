@@ -18,7 +18,7 @@ Rock smashes Scissors
 
 Choose your weapon wisely!
 
-Built with [python3](3https://www.python.org/)
+Built with [python3](https://www.python.org/)
 
 
 Enjoy!
