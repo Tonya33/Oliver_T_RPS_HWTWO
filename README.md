@@ -16,7 +16,7 @@ Paper covers Rock
 Scissors cuts Paper  
 Rock smashes Scissors
 
-Choose your weapon wisely!
+<b>Choose your weapon wisely!<b>
 
 Built with [python3](https://www.python.org/)
 
