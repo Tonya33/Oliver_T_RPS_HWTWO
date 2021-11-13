@@ -15,7 +15,7 @@ while gameVars.player is False:
     gameFunction.compare(computer)
 
     if gameVars.playerLives == 0:
-        winLose.winorlose("lost")
+        winLose.winorlose("were so close! sorry about your luck")
 
     elif gameVars.computerLives == 0:
         winLose.winorlose("won")
