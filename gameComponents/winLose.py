@@ -4,7 +4,7 @@ from gameComponents import gameVars
 def winorlose(status):
     print("you " + status)
 
-    choice = input("do you want to play again? y/n: ")
+    choice = input("do you want to challenge the computer again?? y/n: ")
     global playerLives
     global computerLives
     global player
