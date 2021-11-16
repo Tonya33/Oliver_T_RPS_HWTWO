@@ -1,4 +1,4 @@
-<i>## Rock Paper Scissors - Python text-based take on a classic!<i>
+<i>## Rock :punch: Paper Scissors - Python text-based take on a classic!<i>
 
 Pick your weapon and play against the computer - you'll only get a virtual sting if you lose!
 
