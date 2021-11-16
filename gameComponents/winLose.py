@@ -10,7 +10,7 @@ def winorlose(status):
     global player
 
     if choice == "n":
-        print("========= see ya! (better luck next time!) ==========")
+        print("=========better luck next time!==========")
         exit()
     elif choice == "y":
         gameVars.playerLives = 5
